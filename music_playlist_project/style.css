@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
+
+    html, body, [class*="css"] {
+        font-family: 'DM Sans', sans-serif;
+    }
+    .stApp {
+        background: linear-gradient(135deg, #10131f 0%, #171b2c 55%, #20243a 100%);
+        color: #f5f6fa;
+    }
+    section[data-testid="stSidebar"] {
+        background: #151929;
+        border-right: 1px solid rgba(255,255,255,.08);
+    }
+    .hero {
+        padding: 30px 34px;
+        border-radius: 22px;
+        background: linear-gradient(115deg, #6d4aff, #a34cff 55%, #ef6a9b);
+        margin-bottom: 22px;
+        box-shadow: 0 14px 35px rgba(0,0,0,.18);
+    }
+    .hero h1 {
+        color: white;
+        font-size: 2.55rem;
+        margin: 0;
+        font-weight: 800;
+        letter-spacing: -1.5px;
+    }
+    .hero p {
+        color: rgba(255,255,255,.9);
+        font-size: 1.05rem;
+        margin: 8px 0 0 0;
+    }
+    .section-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin: 18px 0 10px 0;
+    }
+    .metric-card {
+        background: rgba(255,255,255,.07);
+        border: 1px solid rgba(255,255,255,.10);
+        border-radius: 16px;
+        padding: 18px;
+        min-height: 105px;
+    }
+    .metric-label {
+        color: #b9bfd3;
+        font-size: .85rem;
+        margin-bottom: 5px;
+    }
+    .metric-value {
+        color: white;
+        font-size: 1.55rem;
+        font-weight: 800;
+    }
+    .song-card {
+        background: rgba(255,255,255,.055);
+        border: 1px solid rgba(255,255,255,.09);
+        padding: 12px 15px;
+        border-radius: 13px;
+        margin-bottom: 9px;
+    }
+    .muted { color: #b9bfd3; }
+    div[data-testid="stMetric"] {
+        background: rgba(255,255,255,.06);
+        border: 1px solid rgba(255,255,255,.08);
+        padding: 12px;
+        border-radius: 14px;
+    }
+    .stButton > button, .stDownloadButton > button {
+        border-radius: 11px;
+        font-weight: 700;
+        min-height: 44px;
+    }
